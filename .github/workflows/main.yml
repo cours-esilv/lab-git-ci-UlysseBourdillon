@@ -36,7 +36,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: my-app-1.0
+        name: test
         path: target/*
     # Installe la commande docker sur l'agent
     - name: Install Docker
